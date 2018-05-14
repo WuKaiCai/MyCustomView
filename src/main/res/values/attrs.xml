@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomProgress">
+        <attr name="progress_height" format="integer|dimension" />
+        <attr name="start_line_height" format="integer|dimension" />
+        <attr name="center_line_height" format="integer|dimension" />
+        <attr name="end_line_height" format="integer|dimension" />
+        <attr name="round_radius" format="integer|dimension" />
+        <attr name="start_line_color" format="integer|color" />
+        <attr name="center_line_color" format="integer|color" />
+        <attr name="end_line_color" format="integer|color" />
+        <attr name="progress_background_color" format="integer|color" />
+    </declare-styleable>
+
+    <declare-styleable name="WaitingDots">
+        <attr name="dotsColor" format="color" />
+        <attr name="period" format="integer"/>
+        <attr name="jumpHeight" format="integer|dimension"/>
+        <attr name="autoPlay" format="boolean"/>
+    </declare-styleable>
+</resources>
